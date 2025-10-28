@@ -4,9 +4,9 @@ int main() {
     int kwh, loai;
     float tien, phuPhi;
 
-    printf("Nh?p s? di?n tiêu th? (kWh): ");
+    printf("Nhap so dien tieu thu (kWh): ");
     scanf("%d", &kwh);
-    printf("Nh?p lo?i h? tiêu dùng (1: H? gia dình, 2: H? kinh doanh, 3: H? s?n xu?t): ");
+    printf("Nhap loai he tiÃªu dÃ¹ng (1: He gia dÃ¬nh, 2: He kinh doanh, 3: He san xuat): ");
     scanf("%d", &loai);
 
     if (kwh <= 50) {
@@ -29,7 +29,8 @@ int main() {
 
     tien += phuPhi;
 
-    printf("Ti?n di?n = %.0f VND\n", tien);
+    printf("Tien dien = %.0f VND\n", tien);
     return 0;
 }
+
 
