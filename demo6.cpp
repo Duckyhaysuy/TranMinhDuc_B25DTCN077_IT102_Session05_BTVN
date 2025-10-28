@@ -23,7 +23,6 @@ int main() {
         return 1;
     }
 
-    // 2. X? lý logic b?ng switch-case
     switch (toan_tu) {
         case '+':
             ket_qua = a + b;
@@ -53,3 +52,4 @@ int main() {
     
     return 0; 
 }
+
